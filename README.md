@@ -4,10 +4,11 @@ This project involves two sets of code: biomimic and linearmimic. The biomimic c
 
 
 Hardware Requirements
-MG90S positional servo
-Arduino Uno
+-MG90S positional servo
+-Arduino Uno
 
 Setup and Execution Steps
+
 1.Assemble the Circuit:
 Refer to the provided circuit diagram to connect your MG90S servo to the Arduino Uno.
 
