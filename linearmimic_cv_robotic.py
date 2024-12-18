@@ -4,7 +4,7 @@ import serial
 import time
 
 
-arduino = serial.Serial('COM4', 9600)
+arduino = serial.Serial('COM4', 9600) #Select your Serial Port
 time.sleep(2)
 
 # Initialize Mediapipe Hand Detection
@@ -31,7 +31,7 @@ while True:
     if results.multi_hand_landmarks:
         for hand_landmarks in results.multi_hand_landmarks:
             # Define landmarks for fingertips and DIP joints
-            fingertips = [4, 8, 12, 16, 20]  # Thumb, Index, Middle, Ring, Pinky tips
+            fingertips = [4, 8, 12, 16, 20]  # Thumb, Index, Middle, Ring, Pinky tips you can adjust it as per your servos
             dips = [3, 6, 10, 14, 18]        # DIP joints just below the tips
 
             angles = []  # List to store calculated servo angles
