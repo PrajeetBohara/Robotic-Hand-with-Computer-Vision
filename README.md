@@ -1,7 +1,10 @@
 Computer Vision Robotic Hand Project
+
 This project involves two sets of code: biomimic and linearmimic. The biomimic code, available in both Python and Arduino IDE formats, maps each finger's angle to the corresponding servo to simulate realistic hand movements. The linearmimic code determines if a finger is open or closed and sends the signal to the Arduino, causing the servo to hold a position at either 0 degrees (closed) or 180 degrees (open).
 
+
 Hardware Requirements
+
 MG90S positional servo
 Arduino Uno
 Setup and Execution Steps
