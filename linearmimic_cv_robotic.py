@@ -13,7 +13,7 @@ hands = mp_hands.Hands(max_num_hands=1, min_detection_confidence=0.7)
 mp_draw = mp.solutions.drawing_utils
 
 # Start video capture
-cap = cv2.VideoCapture(0)
+cap = cv2.VideoCapture(0) #0 refers to the index of your device default web cam. You can adjust this according to the camera you are using.
 
 while True:
     ret, frame = cap.read()
